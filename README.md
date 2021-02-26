@@ -37,7 +37,7 @@ vars:
     greenhouse_schema: your_schema_name 
 ```
 
-### Passing Through Custom Columns
+### Passthrough Columns
 The Greenhouse `APPLICATION`, `JOB`, and `CANDIDATE` tables may have custom columns, all prefixed with `custom_field_`. To pass these columns along to the staging and final transformation models, add the following variables to your `dbt_project.yml` file:
 
 ```yml
